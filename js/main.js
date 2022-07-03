@@ -2,7 +2,7 @@ let days = document.querySelector(".days span");
 let hours = document.querySelector(".hours span");
 let mins = document.querySelector(".mins span");
 let secs = document.querySelector(".secs span");
-let date = new Date("04-13-2022,00:00:00").getTime();
+let date = new Date("10-15-2022,00:00:00").getTime();
 
 let chellanage = setInterval(function(){
     let dateOfToday = new Date().getTime();
